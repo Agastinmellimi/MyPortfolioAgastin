@@ -16,7 +16,7 @@ const Footer = () => (
              <a href='https://github.com/Agastinmellimi' target='_blank' className='social-link' rel="noreferrer"><AiFillGithub  size={28}/></a>
              </li>
              <li className='s-link'>
-               <a href="mailto: agastinmellimi@gmail.com" target='_blank' className='social-link' rel="noreferrer"><FiMail  size={28}/></a>
+               <a href="mailto: agastinmellimi2001@gmail.com" target='_blank' className='social-link' rel="noreferrer"><FiMail  size={28}/></a>
              </li>
              <li className='s-link'>
              <a href='https://www.facebook.com/chintu.agastin' target='_blank' className='social-link' rel="noreferrer"><GrFacebookOption size={28}/></a>
