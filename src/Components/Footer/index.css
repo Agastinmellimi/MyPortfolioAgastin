@@ -1,0 +1,31 @@
+.footer-container {
+    padding-top: 20px;
+}
+.footer-links-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-link{
+    color: #6b6868;
+    transition: all 0.4s ease;
+    
+}
+.social-link:hover {
+    color: #09759c;
+}
+.s-link{
+    transition: all 0.4s ease;
+    position: relative;
+}
+.s-link:hover{
+    transform: translateY(-3px);
+}
+.my-name{
+    margin-top: auto;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+}

@@ -1,0 +1,98 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+}
+.projects-list-container{
+    display: flex;
+    align-items: flex-start;
+    align-self: center;
+    width: 90%;
+    flex-wrap: wrap;
+    padding-left: 0;
+    
+}
+.image{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.project-content {
+    padding: 10px;
+}
+.project-card{
+    list-style: none;
+    margin-right: 20px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: all 0.6s ease;
+    position: relative;
+    width: 100%;
+}
+@media screen and (min-width: 568px) and (max-width: 767px) {
+     .project-card{
+        width: 200px;
+     }
+}
+@media screen and (min-width: 768px) {
+    .project-card{
+       width: 250px;
+    }
+}
+.project-card:hover {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transform: translateY(-10px);
+}
+.project-name-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.topics-container{
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.project-name{
+    font-size: 24px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.topics-heading{
+    color: #09759c;
+    font-weight: 500;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.topic{
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    font-family: "Roboto";
+    background-color: #d1cfcd;
+    font-weight: 500;
+}
+
+.link-icon {
+    color: #09759c;
+    transition: all 0.4s ease;
+}
+.link-icon:hover {
+    color: #bd9e2d;
+}
+.link-container{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #09759c;
+}
+.icon {
+    margin-right: 3px;
+    color: #09759c;
+}

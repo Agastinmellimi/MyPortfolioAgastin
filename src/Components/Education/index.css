@@ -1,0 +1,64 @@
+.Education-container{
+    display: flex;
+    flex-direction: column;
+} 
+.heading {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 36px;
+    align-self: center;
+    width: 90%;
+}
+.card-timeline{
+    align-self: center;
+    width: 90%;
+}
+.date{
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.share-icon{
+    margin-left: auto;
+}
+.width{
+    height: 500px;
+}
+.vertical-card{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    padding: 0;
+    border-radius: 20px;
+    margin-top: 0;
+}
+.Education-name-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Education-name{
+    font-size: 20px;
+    color: #09759c;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.marks{
+    font-size: "Open Sans";
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+.college-name{
+    margin-top: 0;
+    color: #09759c;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans";
+}
+.icon {
+    margin-right: 3px;
+}
+.marks-line{
+    color: #038731;
+    font-weight: 600;
+}

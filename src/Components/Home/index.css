@@ -1,0 +1,159 @@
+.home-container{
+    display: flex;
+    height: 100vh;
+    flex-shrink: 0;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    background-size: cover;
+    flex-shrink: 0;
+    background-color: #7ce6e1;
+background-image: linear-gradient(53deg, #7ce6e1 0%, #eeed58 51%, #ff9a2f 100%);
+
+}
+  
+.profile-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .link{
+    color: #09759c;
+    transition: all 0.4s ease;
+  }
+  .link:hover {
+      color: #478f75;
+  }
+  .greeting{
+    opacity: 0.3;
+    font-size: 14px;
+  }
+  
+  .name{
+    color: #000;
+    font-size: 27px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+  }
+  .anim-text {
+    font-size: 20px;
+    color: #09759c;
+    font-weight: bold;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    display: 'inline-block';
+  }
+  .profile{
+    width: 150px;
+    border: #09759c solid 2px;
+    border-radius: 50%;
+    order: 1;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: all 1s ease;
+  }
+  .profile:hover {
+       border: #edf05b solid 2px;
+       box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+       transform: skew(3deg, 3deg);
+  }
+  .profile-content{
+    order: 2;
+    border-left: #09759c solid 5px;
+    border-top-left-radius: 15px;
+    padding-left: 10px;
+  }
+  
+  
+  .options-container{
+    padding-left: 0;
+    display: flex;
+    margin-top: 10px;
+  }
+  li{
+    list-style: none;
+    margin-right: 15px;
+  }
+  a{
+    color: #000;
+    text-decoration: none;
+  }
+ 
+  .bio{
+    color: #000;
+    display: none;
+    font-family: "Open Sans";
+  }
+  .link-resume{
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  @media screen and (min-width: 768px) {
+    .bio{
+      font-size: 20px;
+      display: block;
+    }
+    .greeting{
+      font-size: 17px;
+    }
+    .name {
+      font-size: 40px;
+    }
+    .link-resume{
+       margin: 0;
+    }
+    .anim-text{
+      font-size: 30px;
+    }
+    .profile-container{
+      flex-direction: row;
+      justify-content: space-between;
+      width: 90%;
+      align-items: center;
+      border-left: #09759c solid 4px;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      padding-left: 15px;
+      
+     }
+     .profile-content{
+      order: 1;
+      text-align: left;
+      border-left: none;
+      margin-right: 20px;
+    }
+    .profile{
+      order: 2;
+      border-radius: 80px 20px 80px 20px;
+      width: 300px;
+    }
+    
+    .options-container{
+      justify-content: flex-start;
+    }
+  }
+  
+           
+  .btn-grad {
+    background-image: linear-gradient(to right, #000046 0%, #1CB5E0  51%, #000046  100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 150px;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  
+ 
