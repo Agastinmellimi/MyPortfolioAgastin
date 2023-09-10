@@ -22,7 +22,7 @@ const About = () => {
                     I have hands on experience with technologies like HTML, CSS, JavaScript, Python, SQL (MySQL) for Database Management, React Js, Node Js, Express Js.
                 </li>
                 <li className='points'>
-                    I am exited about the opportunity to work on diverse projects and contribute to the success of businesses through my Web development skills. If you have an idea or
+                    I am excited about the opportunity to work on diverse projects and contribute to the success of businesses through my Web development skills. If you have an idea or
                     project in mind, let's connect and disscuss how we can bring it to life.
                 </li>
                 
