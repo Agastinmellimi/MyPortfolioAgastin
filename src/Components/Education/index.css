@@ -8,9 +8,28 @@
     align-self: center;
     width: 90%;
 }
+.education-name-container{
+    display: flex;
+
+    flex-direction: column;
+}
+@media screen and (min-width: 768px){
+    .education-name-container{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.education-card{
+    margin-bottom: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+}
 .card-timeline{
     align-self: center;
     width: 90%;
+    padding: 0;
 }
 .date{
     font-family: "Open Sans";
@@ -57,6 +76,7 @@
 }
 .icon {
     margin-right: 3px;
+    flex-shrink: 0;
 }
 .marks-line{
     color: #038731;

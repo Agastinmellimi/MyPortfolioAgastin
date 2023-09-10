@@ -13,7 +13,7 @@
 }
 .points {
     list-style:disc;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans";
 }
 .about-heading{
     color: #fff;
@@ -24,7 +24,7 @@
 }
 .points{
     color: #fff;
-    font-family: 'Caveat', cursive;
+    font-family: "Open Sans";
     font-size: 18px;
     margin-bottom: 20px;
 }

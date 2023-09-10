@@ -1,10 +1,10 @@
 import {useState, useEffect} from 'react'
 import {PiDotsThreeOutlineVerticalBold} from 'react-icons/pi'
 import {RxCross2} from 'react-icons/rx'
-import AOS from 'aos'
+
 
 import './index.css'
-import 'aos/dist/aos.css';
+
 
 
 
@@ -29,8 +29,7 @@ const Header = () => {
           prevScrollpos = currentScrollPos;
         }
        
-            AOS.init({duration: 2000});
-     
+           
     }, [])
     return (
       <>
@@ -38,35 +37,35 @@ const Header = () => {
         <div className='nav-inner-container'>
           <img src='https://res.cloudinary.com/djpsdllur/image/upload/v1694242940/bs57nw2cyv3h53caurbi.png' data-aos='fade-right' className='logo' alt='Website logo'/>
           <ul className='nav-options-container'>
-               <li className='option-list' data-aos='fade-right'>
+               <li className='option-list' >
                    <a href='#Home' className='link-option'>Home</a>
                </li>
-               <li className='option-list' data-aos='fade-right'>
+               <li className='option-list' >
                    <a href='#Education' className='link-option'>Education</a>
                </li>
-               <li className='option-list' data-aos='fade-right'>
-                   <a href='#Projects' className='link-option'>Projects</a>
+               <li className='option-list' >
+                   <a href='#Projects' className='link-option' >Projects</a>
                </li>
-               <li className='option-list' data-aos='fade-right'>
+               <li className='option-list'>
                    <a href='#About' className='link-option'>About</a>
                </li>
           </ul>
-          <button className='menu-btn' type='button' onClick={onClickMenuBtn} data-aos='fade-right'>
+          <button className='menu-btn' type='button' onClick={onClickMenuBtn}>
               {clickMenu ? <RxCross2 size={22}/> : <PiDotsThreeOutlineVerticalBold size={22}/>}
           </button>
           </div>
           {clickMenu ? <ul className={hideOptions}>
                 <li className='option'>
-                    <a href='#Home' className='link-option'>Home</a>
+                    <a href='#Home' className='link-option' onClick={() => setMenu(false)}>Home</a>
+                </li>
+                <li className='option' >
+                    <a href='#Education' className='link-option' onClick={() => setMenu(false)}>Education</a>
                 </li>
                 <li className='option'>
-                    <a href='#Education' className='link-option'>Education</a>
+                    <a href='#Projects' className='link-option' onClick={() => setMenu(false)}>Projects</a>
                 </li>
                 <li className='option'>
-                    <a href='#Projects' className='link-option'>Projects</a>
-                </li>
-                <li className='option'>
-                    <a href='#About' className='link-option'>About</a>
+                    <a href='#About' className='link-option' onClick={() => setMenu(false)}>About</a>
                 </li>
           </ul> : null}
        </nav>

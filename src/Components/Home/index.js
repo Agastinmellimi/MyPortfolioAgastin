@@ -47,7 +47,7 @@ const Home = () => {
         <a href='https://drive.google.com/file/d/1Ohv7vnGP243r3TT6Ggz_oWlx_aKm8xEM/view?usp=sharing' download='resume' className='link-resume btn-grad' target='_blank' rel='noreferrer'>Resume</a>
          
      </div>
-     <img src='https://res.cloudinary.com/dkrpgt9kd/image/upload/v1694260965/xppzgltwxmgdd8sriuqj.png' alt='agastin' className='profile' data-aos='fade'/>
+     <img src='https://res.cloudinary.com/dkrpgt9kd/image/upload/v1694260965/xppzgltwxmgdd8sriuqj.png' alt='agastin' className='profile'/>
      </div>
    </div>
 )
