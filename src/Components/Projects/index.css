@@ -98,3 +98,12 @@
     margin-right: 3px;
     color: #09759c;
 }
+.user-credetials{
+    font-family: "Open Sans";
+    font-size: 17px;
+}
+.user-details{
+    color: #08a83b;
+    font-family: "Open Sans";
+    font-weight: 500;
+}

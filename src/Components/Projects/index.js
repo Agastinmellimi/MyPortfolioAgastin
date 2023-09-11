@@ -39,6 +39,9 @@ const Projects = () => {
                             ))}
                         </ul>
                        <a href={eachItem.projectUrl}  className='link-container' target='_blank' rel='noreferrer'><RiArrowRightUpLine size={20} className='icon'/>{eachItem.publishLink}</a>
+                       {eachItem.id === 3 ? (
+                            <p className='user-credetials' data-aos='zoom-in'>usearname: <span className='user-details'>rahul</span> <br/> password: <span className='user-details'>rahul@2021</span></p>
+                       ) : null}
                     </div>
                 </li>
                 ))}
