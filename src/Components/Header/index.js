@@ -44,6 +44,9 @@ const Header = () => {
                    <a href='#Education' className='link-option'>Education</a>
                </li>
                <li className='option-list' >
+                   <a href='#Skills' className='link-option'>Skills</a>
+               </li>
+               <li className='option-list' >
                    <a href='#Projects' className='link-option' >Projects</a>
                </li>
                <li className='option-list'>
@@ -60,6 +63,9 @@ const Header = () => {
                 </li>
                 <li className='option' >
                     <a href='#Education' className='link-option' onClick={() => setMenu(false)}>Education</a>
+                </li>
+                <li className='option' >
+                    <a href='#Skills' className='link-option' onClick={() => setMenu(false)}>Skills</a>
                 </li>
                 <li className='option'>
                     <a href='#Projects' className='link-option' onClick={() => setMenu(false)}>Projects</a>
