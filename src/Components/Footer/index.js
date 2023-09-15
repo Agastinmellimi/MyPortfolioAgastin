@@ -1,6 +1,5 @@
 import { AiFillGithub} from 'react-icons/ai'
 import {GrLinkedinOption, GrFacebookOption} from 'react-icons/gr'
-import {SiInstagram} from 'react-icons/si'
 import {FiMail} from 'react-icons/fi'
 import {HiOutlineAtSymbol} from 'react-icons/hi'
 import './index.css'
