@@ -21,9 +21,6 @@ const Footer = () => (
              <li className='s-link'>
              <a href='https://www.facebook.com/chintu.agastin' target='_blank' className='social-link' rel="noreferrer"><GrFacebookOption size={28}/></a>
              </li>
-             <li className='s-link'>
-               <a href='https://www.instagram.com/agastin1983/' target='_blank' className='social-link' rel="noreferrer"><SiInstagram  size={28}/></a>
-             </li>
         </ul>
         <p className='my-name'><HiOutlineAtSymbol size={18}/>Agastin Mellimi</p>
     </div>
