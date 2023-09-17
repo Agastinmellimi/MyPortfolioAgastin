@@ -110,6 +110,9 @@ export const ContactUs = () => {
           (result) => {
             if (result.text === 'OK') {
               setSendStatus('SUCCESS')
+              updatedName("")
+              updatedText('')
+              updatedEmail('')
             }
           }
         )
