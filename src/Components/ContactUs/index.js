@@ -164,7 +164,7 @@ export const ContactUs = () => {
         {sendStatus === "SUCCESS" ? <p className='wish'>Thanks for your wishes<BsFillEmojiSmileFill className='smile-icon' size={25}/></p>: null}
       </div>
       {sendStatus === "SUCCESS" ? (
-          <button type="submit" className='refresh-btn' onClick={onRefresh} data-aos='zoom-in'>
+          <button type="submit" className='refresh-btn' onClick={onRefresh}>
                 <GrRefresh/>
           </button>
         ) : null}
