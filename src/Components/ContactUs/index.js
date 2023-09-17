@@ -7,8 +7,9 @@ import {GrRefresh} from 'react-icons/gr'
 import {BsFillSendFill} from 'react-icons/bs'
 import {BsFillEmojiSmileFill} from 'react-icons/bs'
 
-import 'reactjs-popup/dist/index.css'
 import './index.css'
+import 'reactjs-popup/dist/index.css'
+
 import 'aos/dist/aos.css';
 
 
@@ -146,14 +147,14 @@ export const ContactUs = () => {
     <form ref={form} onSubmit={sendEmail} className='form-container'>
       <label className='label' htmlFor='name'>Name</label>
       <input type="text" id='name' name="name" value={name} className='input-bar' onChange={nameInput}/>
-      {nameError ? <p className='error-msg' data-aos='fade'>Please Provide your name</p> : null}
+      {nameError ? <p className='error-msg'>Please Provide your name</p> : null}
       <label className='label' htmlFor='email'>Email</label>
       <input type="email" name="user_email" id='email' value={email} className='input-bar' onChange={emailInput} />
      
-      {emailError ? <p className='error-msg' data-aos='fade'>Please Provide your email</p> : null}
+      {emailError ? <p className='error-msg' >Please Provide your email</p> : null}
       <label className='label' htmlFor='message'>Message</label>
       <textarea name="message" className='text' value={text} id='message' onChange={textInput}/>
-      {textError ? <p className='error-msg' data-aos='fade'>Please Provide Message</p> : null}
+      {textError ? <p className='error-msg' >Please Provide Message</p> : null}
       <div className='btn-container'>
         
       <div className='send-btn-container'>
