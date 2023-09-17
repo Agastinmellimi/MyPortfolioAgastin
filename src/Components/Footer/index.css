@@ -1,15 +1,19 @@
 .footer-container {
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #79a685;
 }
 .footer-links-container{
     display: flex;
+    padding-left: 0;
     align-items: center;
     justify-content: center;
 }
 .social-link{
     color: #6b6868;
     transition: all 0.4s ease;
-    
 }
 .social-link:hover {
     color: #09759c;
@@ -17,6 +21,9 @@
 .s-link{
     transition: all 0.4s ease;
     position: relative;
+    background-color: antiquewhite;
+    padding: 3px 5px;
+    border-radius: 15px;
 }
 .s-link:hover{
     transform: translateY(-3px);
@@ -28,4 +35,5 @@
     align-items: center;
     justify-content: center;
     font-family: "Open Sans", sans-serif;
+    margin-right: 20px;
 }

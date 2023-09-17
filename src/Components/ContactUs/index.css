@@ -1,6 +1,7 @@
 .contact-container {
     display: flex;
     flex-direction: column;
+    padding-bottom: 40px;
 }
 .form-card{
     display: flex;
@@ -100,7 +101,7 @@
 }
 
 .refresh-btn:hover{
-    transform: scale(1.1) rotate(40deg) !important;
+    transform: scale(1.1) rotate(40deg);
     
 }
 
