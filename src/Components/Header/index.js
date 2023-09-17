@@ -35,7 +35,9 @@ const Header = () => {
       <>
        <nav className={hideNavbar}>
         <div className='nav-inner-container'>
-          <img src='https://res.cloudinary.com/djpsdllur/image/upload/v1694242940/bs57nw2cyv3h53caurbi.png' data-aos='fade-right' className='logo' alt='Website logo'/>
+            <a href='#Home' className='logo-link'>
+              <img src='https://res.cloudinary.com/djpsdllur/image/upload/v1694242940/bs57nw2cyv3h53caurbi.png' data-aos='fade-right' className='logo' alt='Website logo'/>
+            </a>
           <ul className='nav-options-container'>
                <li className='option-list' >
                    <a href='#Home' className='link-option'>Home</a>
